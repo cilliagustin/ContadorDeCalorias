@@ -1,0 +1,48 @@
+nav {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav .titulo{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn-container button{
+    margin: 10px 5px;
+}
+footer div{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+footer p a{
+    text-decoration: none;
+    font-weight: 700;
+    overflow: hidden;
+    background: linear-gradient(to right, #F44336, #F44336  50%, rgb(255, 255, 255) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: all .5s ease-in 
+    }
+footer p a:hover {
+    background-position: 0 100%; }
